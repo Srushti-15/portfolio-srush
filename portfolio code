@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srushti portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+       body{
+        background-color: rgb(0,0,33);
+        color:white;
+        font-family:'poppins'
+
+       }
+       nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(45, 6, 82);
+       }
+       nav ul{
+        display: flex;
+        justify-content: center;
+
+       }
+       nav ul li{
+        list-style: none;
+        margin: 0 23px;
+       }
+      
+       .secondSection ul li
+       {
+         margin-bottom:1rem;
+         justify-content: center;
+       }
+       
+       
+       main hr{
+        border:0;
+        background-color: blue;
+        height:1.2px;
+        /*margin:40px 84px;*/
+       }
+       
+       .secondSection hr{
+        border:0;
+        background-color: blue;
+        height:1.9px;
+        margin:auto;
+        width: 100px;
+       
+       }
+      
+      
+       .left{
+        font-size: 25px;
+       }
+       
+       .firstSection {
+        display: flex;
+        justify-content: center;
+        margin: 80px 0;
+       }
+       .firstSection > div{
+             width: 30%;
+       }
+       .leftSection{
+        
+        font-size: 2rem;
+        margin: 30px;
+       }
+       .rightSection img{
+       
+        margin:30px;
+        width: 70%;
+        height:70%;
+        
+       }
+       .text-gray{
+        color:gray;
+       }
+       .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height:80vh;
+    }
+      
+     .secondSection h1{
+        font-size: 1.9rem;
+       }
+
+       .thirdsection{
+        max-width: 80vw;
+        margin: auto;
+        height:80vh;
+
+       }
+       .fourthsection
+       {
+        max-width: 80vw;
+        margin: auto;
+        height:80vh;
+       }
+        
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Srushti's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                 Hi,My name is srushti Dnyanoba Gunale
+                <div> I am a student of computer engineering</div>
+                <div>skills:python,HTML,css</div>
+                <div>WebDevelopment,Java,C++</div>
+            </div>
+            <div class="rightSection">
+                 <img src="srushti.jpeg">
+            </div>
+        </section>
+         <hr>
+        <section class="secondSection">
+            <hr>
+            <span class="text-gray">What I have done so far</span>
+            <h1>Projects</h1>
+           
+            <ul>
+                <li>Portfolio webside</li>
+                <li>House rental services webside</li>
+                <li>chatbot Application</li>
+                <li>face recognization</li>
+                <li>search engine</li>
+                <li>Student Management System</li>
+                <li>Resume builder web application</li>
+                <li>Quiz game using java</li>
+                <li>Women sefty application</li>
+                <li>Food ordering webside</li>
+                <li>Hospital management system</li>
+            </ul>
+            
+            </section>
+            <hr>
+            
+            <section class="thirdsection">
+                <h1>Contact Details</h1>
+                <div>Keystone school of engineering</div>
+                <div>Near Handewadi Chowk</div>
+                <div>Urali Devachi,shewalewadi,</div>
+                <div>pune-412308</div>
+                <div>srushti2004@gmail.com</div>
+                <div>9573577887</div>
+                
+                <div class="bottom">
+                    <img src="keystone.webp" height="400" width="700">
+                </div>
+                
+            </section>
+            <hr>
+
+            <section class="fourthsection">
+                <h1>Additipnal Infornmation</h1>
+                <div>https://www.Keystoneschoolofengineering.com</div>
+                <div>https://www.shiksha.com</div>
+                <div>https://www.punawala.com</div>
+                <div>https://www.sppu.com</div>
+
+                
+            </section>
+            
+    </main>
+    
+</body>
+</html>
